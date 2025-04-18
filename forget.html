@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://static.vecteezy.com/system/resources/previews/035/346/925/non_2x/ai-generated-rear-view-of-man-in-yellow-raincoat-riding-bicycle-under-heavy-rain-on-rainy-night-a-courier-rides-a-bicycle-through-a-rainy-evening-or-night-city-ai-generated-free-photo.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .reset-container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            color: white;
+            width: 400px;
+            text-align: center;
+        }
+
+        .reset-container h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .reset-container h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .reset-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 16px;
+        }
+
+        .reset-container input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .reset-btn {
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+
+        .reset-btn:hover {
+            background: #1e7e34;
+        }
+
+        .back-link {
+            color: #007bff;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="reset-container">
+        <h1>LAST MILE ROUTE PLANNING</h1>
+        <h2>Reset Password</h2>
+        <p style="margin-bottom: 20px; font-size: 14px;">Enter your email and we'll send you a link to reset your password.</p>
+        <input type="email" placeholder="Email address">
+        <button class="reset-btn">Send Reset Link</button>
+        <a href="login.html" class="back-link">Back to Login</a>
+    </div>
+</body>
+</html>
